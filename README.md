@@ -1,2 +1,3 @@
-npm run lint:fix
-git add . && git commit -m "feat: update" --no-verify
+- 自动生成海量题目？
+- 制作一个函数，不需要想太多，把所学的知识输入进去就可以了
+- 暂时做一个最简单的命令行输出输出的小玩具就可以
