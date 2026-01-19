@@ -1,18 +1,24 @@
 {
   "name": "jp-core",
   "version": "1.0.0",
-  "description": "",
+  "description": "日语学习工具库",
   "main": "index.js",
-  "scripts": {
-    "test": "rstest"
+  "bin": {
+    "jp": "./src/cli.ts"
   },
-  "keywords": [],
+  "scripts": {
+    "test": "rstest",
+    "cli": "tsx src/cli.ts"
+  },
+  "keywords": ["japanese", "language", "learning"],
   "author": "",
   "license": "ISC",
   "packageManager": "pnpm@10.13.0",
   "devDependencies": {
     "@canyonjs/report-html": "^1.0.9",
     "@rstest/core": "^0.7.9",
-    "@rstest/coverage-istanbul": "^0.1.6"
+    "@rstest/coverage-istanbul": "^0.1.6",
+    "tsx": "^4.7.0",
+    "@types/node": "^20.0.0"
   }
 }
